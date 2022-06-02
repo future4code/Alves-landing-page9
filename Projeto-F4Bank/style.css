@@ -72,8 +72,17 @@ footer {
     position:fixed;
     bottom: 0;
     width: 100%;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 500px 1fr 1fr 1fr;
+    grid-template-rows:  1fr;
     border: 1px solid black;
+    color: rgb(255, 195, 85) ;
+    background-color: black;
+    padding-left: 30px;
+    padding-top: 5px;
 }
 
+
+
+.redes img {
+    height: 2rem;
+}
