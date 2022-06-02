@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border: 1px solid black;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(255, 195, 85);
+}
+
+
+
+#logo{
+    width: 20%;
+}
+
+
+
+
+#move-botao{             
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 30%;
+
+}
+
+input{
+    display: grid;
+    width: 50%;
+    height: 20px;
+    
+}
+
+li img {
+    width: 20px;
+}
+
+
+
+main {
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    border: 1px solid black;
+}
+
+li{
+    display: grid;
+    grid-template-columns: 30px 1fr ;
+    grid-template-rows: 1fr;
+}
+
+
+
+#promocoes{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+
+
+footer {
+    display: grid;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 1px solid black;
+}
+
