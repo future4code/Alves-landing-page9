@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Berkshire+Swash&family=Prata&family=Roboto+Slab&family=Satisfy&display=swap');
+
 *{
     margin:0;
     padding: 0;
@@ -20,7 +22,11 @@ header {
 }
 
 
+button{
+    font-family:'Roboto';
+    margin: none;
 
+}
 
 #move-botao{             
     display: grid;
@@ -72,13 +78,15 @@ footer {
     position:fixed;
     bottom: 0;
     width: 100%;
-    grid-template-columns: 500px 1fr 1fr 1fr;
+    grid-template-columns: 500px 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows:  1fr;
     border: 1px solid black;
     color: rgb(255, 195, 85) ;
     background-color: black;
     padding-left: 30px;
     padding-top: 5px;
+    font-family: 'Roboto Slab', serif;
+
 }
 
 
