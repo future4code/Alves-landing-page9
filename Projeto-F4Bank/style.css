@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Berkshire+Swash&family=Prata&family=Roboto+Slab&family=Satisfy&display=swap');
 
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
 }
 
@@ -17,18 +17,18 @@ header {
 
 
 
-#logo{
+#logo {
     width: 20%;
 }
 
 
-button{
-    font-family:'Roboto';
+button {
+    font-family: 'Roboto';
     margin: none;
 
 }
 
-#move-botao{             
+#move-botao {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -36,11 +36,11 @@ button{
 
 }
 
-input{
+input {
     display: grid;
     width: 50%;
     height: 20px;
-    
+
 }
 
 li img {
@@ -50,21 +50,21 @@ li img {
 
 
 main {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr;
     border: 1px solid black;
 }
 
-li{
+li {
     display: grid;
-    grid-template-columns: 30px 1fr ;
+    grid-template-columns: 30px 1fr;
     grid-template-rows: 1fr;
 }
 
 
 
-#promocoes{
+#promocoes {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
@@ -75,13 +75,13 @@ li{
 
 footer {
     display: grid;
-    position:fixed;
+    position: fixed;
     bottom: 0;
     width: 100%;
     grid-template-columns: 500px 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows:  1fr;
+    grid-template-rows: 1fr;
     border: 1px solid black;
-    color: rgb(255, 195, 85) ;
+    color: rgb(255, 195, 85);
     background-color: black;
     padding-left: 30px;
     padding-top: 5px;
@@ -89,8 +89,56 @@ footer {
 
 }
 
+.duvidas {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
 
+}
+
+.duvidas h1 {
+    font-size: xx-large;
+    color: orange;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
 
 .redes img {
     height: 2rem;
+}
+
+.caixa-duvidas {
+    align-items: center;
+    width: 600px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 15px;
+    background-color: white;
+    margin-left: 200px;
+    padding-left: 10px;
+
+}
+
+.pergunta {
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.pergunta label {
+    display: inline-block;
+    font-size: x-large;
+    margin-bottom: 5px;
+    width: 100%
+}
+
+.resposta {
+    font-size: small;
+    margin-left: 20px;
+    margin-right: 100px;
+    text-align: justify;
 }
