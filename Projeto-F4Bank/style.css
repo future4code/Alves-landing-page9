@@ -22,11 +22,9 @@ header {
 }
 
 
-button {
-    font-family: 'Roboto';
-    margin: none;
 
-}
+
+
 
 #move-botao {
     display: grid;
