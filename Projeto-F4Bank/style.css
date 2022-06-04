@@ -78,7 +78,7 @@ section{
 #promocoes{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 0.8fr 2fr;
     
 }
 
@@ -88,19 +88,12 @@ section{
     background-position: center;
     background-size: 1250px;
     background-repeat: no-repeat;
-    
- 
-   
-
 }
 
 #secao-card {
     display: grid;
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr 3fr;
-   
-    
-    
 }
 
 p{
@@ -212,6 +205,62 @@ footer {
     
 }
 
+
+#duvidas {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+#duvidas h1 {
+    font-size: xx-large;
+    color: orange;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.redes img {
+    height: 2rem;
+}
+
+.caixa-duvidas {
+    align-items: center;
+    width: 600px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 15px;
+    background-color: white;
+    margin-left: 200px;
+    padding-left: 10px;
+
+}
+
+.pergunta {
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.pergunta label {
+    display: inline-block;
+    font-size: x-large;
+    margin-bottom: 5px;
+    width: 100%
+}
+
+.resposta {
+    font-size: small;
+    margin-left: 20px;
+    margin-right: 100px;
+    text-align: justify;
+    margin-bottom: 100px;
+}
+
 @media screen and (min-device-width:320px) and (max-device-width:480px){
     button{
         width: 70px;
@@ -242,6 +291,4 @@ footer {
         width: 100%;
     } */
 
-
 } 
-
