@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Berkshire+Swash&family=Prata&family=Roboto+Slab&family=Satisfy&display=swap');
 
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
 }
 
@@ -15,41 +15,41 @@ header {
 }
 
 
-nav{
+nav {
     background-color: rgb(245, 229, 229);
 }
 
-#logo{
+#logo {
     padding: 10px;
     width: 20%;
 }
 
 
-button{
-    font-family:'Roboto Slab', serif;
+button {
+    font-family: 'Roboto Slab', serif;
     margin: none;
     height: 30px;
     width: 100px;
-    border:1px solid orangered;
+    border: 1px solid orangered;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(245, 229, 229);
 }
 
-#modifica-botao{             
+#modifica-botao {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 10px;
-    justify-content:start;
+    justify-content: start;
 }
 
-input{
+input {
     display: grid;
     width: 100%;
-    height: 30px; 
-    border:1px solid orangered;
+    height: 30px;
+    border: 1px solid orangered;
 }
 
 li img {
@@ -59,32 +59,33 @@ li img {
 
 
 main {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr;
 }
 
-li{
+li {
     display: grid;
-    grid-template-columns: 30px 1fr ;
+    grid-template-columns: 30px 1fr;
     grid-template-rows: 1fr;
-    font-family:'Roboto Slab', serif;
+    font-family: 'Roboto Slab', serif;
 }
-section{
-    font-family:'Roboto Slab', serif;
+
+section {
+    font-family: 'Roboto Slab', serif;
 }
 
 
-#promocoes{
+#promocoes {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 0.8fr 2fr;
-    
+    grid-template-rows: 0.45fr 0.4fr 1fr 0.2fr 1fr;
+
 }
 
-#bem-vindos{
+#bem-vindos {
     background-image: url(./img/imagem-editada1.jpg);
-    
+
     background-position: center;
     background-size: 1250px;
     background-repeat: no-repeat;
@@ -92,32 +93,40 @@ section{
 
 #secao-card {
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 3fr;
 }
 
-p{
+p {
     height: 20px;
 }
 
-#img-cartao{
-  padding-top: 30px;
-  justify-items: center;
-  width: 100%;
-  display: grid;
+#img-cartao {
+    padding-top: 30px;
+    justify-items: center;
+    width: 100%;
+    display: grid;
 }
 
-#quem-somos{
+#secao-conta {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr;
+}
+
+
+
+#quem-somos {
     padding: 50px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
     align-items: center;
-    
+
 }
 
-#centraliza-p{
+#centraliza-p {
     display: grid;
     text-align: center;
     width: 50%;
@@ -128,13 +137,13 @@ p{
 
 footer {
     display: grid;
-    position:fixed;
+    position: fixed;
     bottom: 0;
     width: 100%;
     grid-template-columns: 500px 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows:  1fr;
+    grid-template-rows: 1fr;
     border: 1px solid black;
-    color: rgb(255, 195, 85) ;
+    color: rgb(255, 195, 85);
     background-color: black;
     padding-left: 30px;
     padding-top: 5px;
@@ -147,6 +156,7 @@ footer {
 .redes img {
     height: 2rem;
 }
+
 #duvidas {
     display: grid;
     grid-template-columns: 1fr;
@@ -202,7 +212,7 @@ footer {
     margin-left: 20px;
     margin-right: 100px;
     text-align: justify;
-    
+
 }
 
 
@@ -261,34 +271,40 @@ footer {
     margin-bottom: 100px;
 }
 
-@media screen and (min-device-width:320px) and (max-device-width:480px){
-    button{
-        width: 70px;
-        font-size: x-small;
-        
-    }
-
-    input{
-        justify-self: start;
-        width: 50px;
-        height: 20px;
-        font-size: x-small;
-    }
-  
-    #promocoes{
+@media screen and (min-device-width:320px) and (max-device-width:480px) {
+    body {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 3fr;
-        
-    }
-    #quem-somos{
-        display: flex;
-        padding: 0;
-        justify-content: flex-start;
-    }
-    /* #centraliza-p{
-       
         width: 100%;
-    } */
+    }
 
-} 
+   
+    #promocoes {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.2fr 0.4fr 0.2fr 0.5fr;
+        width: 100%;
+    }
+
+   #duvidas{
+       margin-top: 100px;
+   }
+    
+   .caixa-duvidas{
+       margin-left: 50px;
+       margin-right: 50px;
+   }
+
+   #secao-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 300px;
+}
+
+
+#secao-conta {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 300px;
+}
+}
