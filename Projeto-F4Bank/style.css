@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Berkshire+Swash&family=Prata&family=Roboto+Slab&family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(255, 195, 85);
+}
+
+
+nav {
+    background-color: rgb(245, 229, 229);
+}
+
+#logo {
+    padding: 10px;
+    width: 20%;
+}
+
+
+button {
+    font-family: 'Roboto Slab', serif;
+    margin: none;
+    height: 30px;
+    width: 100px;
+    border: 1px solid orangered;
+}
+
+button:hover {
+    background-color: rgb(245, 229, 229);
+}
+
+#modifica-botao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    justify-content: start;
+}
+
+input {
+    display: grid;
+    width: 100%;
+    height: 30px;
+    border: 1px solid orangered;
+}
+
+li img {
+    width: 20px;
+}
+
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
+}
+
+li {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 1fr;
+    font-family: 'Roboto Slab', serif;
+}
+
+section {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+#promocoes {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.45fr 0.4fr 1fr 0.2fr 1fr;
+
+}
+
+#bem-vindos {
+    background-image: url(./img/imagem-editada1.jpg);
+
+    background-position: center;
+    background-size: 1250px;
+    background-repeat: no-repeat;
+}
+
+#secao-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr;
+}
+
+p {
+    height: 20px;
+}
+
+#img-cartao {
+    padding-top: 30px;
+    justify-items: center;
+    width: 100%;
+    display: grid;
+}
+
+#secao-conta {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr;
+}
+
+
+
+#quem-somos {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+
+}
+
+#centraliza-p {
+    display: grid;
+    text-align: center;
+    width: 50%;
+
+}
+
+
+
+footer {
+    display: grid;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    grid-template-columns: 500px 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border: 1px solid black;
+    color: rgb(255, 195, 85);
+    background-color: black;
+    padding-left: 30px;
+    padding-top: 5px;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+
+
+.redes img {
+    height: 2rem;
+}
+
+#duvidas {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+
+}
+
+#duvidas h1 {
+    font-size: xx-large;
+    color: orange;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.redes img {
+    height: 2rem;
+}
+
+
+
+
+.caixa-duvidas {
+    align-items: center;
+    width: 600px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 15px;
+    background-color: white;
+    margin-left: 200px;
+    padding-left: 10px;
+
+}
+
+.pergunta {
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.pergunta label {
+    display: inline-block;
+    font-size: x-large;
+    margin-bottom: 5px;
+    width: 100%
+}
+
+.resposta {
+    font-size: small;
+    margin-left: 20px;
+    margin-right: 100px;
+    text-align: justify;
+
+}
+
+
+#duvidas {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+#duvidas h1 {
+    font-size: xx-large;
+    color: orange;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.redes img {
+    height: 2rem;
+}
+
+.caixa-duvidas {
+    align-items: center;
+    width: 600px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 15px;
+    background-color: white;
+    margin-left: 200px;
+    padding-left: 10px;
+
+}
+
+.pergunta {
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.pergunta label {
+    display: inline-block;
+    font-size: x-large;
+    margin-bottom: 5px;
+    width: 100%
+}
+
+.resposta {
+    font-size: small;
+    margin-left: 20px;
+    margin-right: 100px;
+    text-align: justify;
+    margin-bottom: 100px;
+}
+
+@media screen and (min-device-width:320px) and (max-device-width:480px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+   
+    #promocoes {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.2fr 0.4fr 0.2fr 0.5fr;
+        width: 100%;
+    }
+
+   #duvidas{
+       margin-top: 100px;
+   }
+    
+   .caixa-duvidas{
+       margin-left: 50px;
+       margin-right: 50px;
+   }
+
+   #secao-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 300px;
+}
+
+
+#secao-conta {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 300px;
+}
+}
